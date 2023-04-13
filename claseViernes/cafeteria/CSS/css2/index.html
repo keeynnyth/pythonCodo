@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="" />
+
+    <style>
+      body {
+        font-family: "Righteous", cursive;
+        box-sizing: border-box;
+      }
+
+      #ejemplo {
+        padding: 20px;
+        border: 100px solid red;
+        margin: 10px;
+      }
+
+      .anav {
+        text-decoration: none;
+        background-color: rgb(168, 127, 255);
+        font-size: 20px;
+        color: black;
+        padding: 8px;
+        margin: 0px 10px;
+        border-radius: 10px;
+        display: inline-block;
+      }
+
+      nav {
+        background-color: aquamarine;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin-bottom: 150px;
+      }
+
+      #estatico {
+        background-color: red;
+        width: 100px;
+        border: 1px solid blue;
+        margin: 2px;
+        padding: 20px;
+        height: 100px;
+        position: static;
+      }
+
+      #fijo {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        top: 150px;
+        right: 3000px;
+      }
+
+      #relativo {
+        background-color: green;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 50px;
+        left: 600px;
+      }
+
+      #absoluto {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(0, 191, 255);
+        top: 100px;
+        left: 100px;
+        position: absolute;
+      }
+
+      a:link {
+        color: red;
+      }
+      a:hover {
+        background-color: yellow;
+      }
+      a:visited {
+        color: blue;
+      }
+      a:active {
+        background-color: green;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="">
+      <a class="anav" href="index.html">Home</a>
+      <a class="anav" href="">Nosotros</a>
+      <a class="anav" href="">Registro</a>
+    </nav>
+    <br /><br /><br />
+    <h1>etiqueta</h1>
+    <p id="ejemplo">Clase css3</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis
+      recusandae voluptas earum suscipit, quisquam tempore nesciunt similique
+      facere quibusdam quo neque tenetur minus labore autem, ex omnis.
+      Laudantium, odit!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione cum
+      iusto, expedita molestiae blanditiis ipsam dolor adipisci nemo iste
+      obcaecati! Similique fugiat aperiam modi iste quasi totam neque cum
+      eveniet!
+    </p>
+
+    <div id="estatico">estatico rojo de 1oopx * 1oopx</div>
+
+    <div id="fijo">fijo</div>
+
+    <div id="relativo">
+      verde 200 * 2 al lado del azul00
+
+      <div id="absoluto">celetes 80por top 80 iz</div>
+    </div>
+  </body>
+</html>
